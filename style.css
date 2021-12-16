@@ -61,7 +61,9 @@ html, body {
   
   .title-wrap,
   .section-title {
-    text-align: center; }
+    text-align: center;
+    text-decoration: underline rgb(172, 50, 177);
+   }
   
   .shadow {
     box-shadow: 0 10px 30px 0 rgba(67, 80, 98, 0.24), 0 2px 4px 0 rgba(67, 80, 98, 0.1) !important; }
@@ -395,6 +397,7 @@ html, body {
   /*================================
   =            FEATURES            =
   ================================*/
+
   .feature-item {
     transition: all .2s ease-in-out 0s !important; }
     .feature-item:hover {
@@ -760,9 +763,25 @@ html, body {
       font-size: 16px; } }
   
   /*=====  End of RESPONSIVE  ======*/
-  
+ 
+  @media all and (min-width: 768px) {
 .contact-container {
-    margin-left: 450px;
+    justify-content: center;
+    padding: 100px 500px 100px 500px;
+}}
+
+.contact-row {
+  padding: 20px 20px 20px 20px;
+  box-shadow: 0 10px 30px 0 rgb(67 80 98 / 24%), 0 2px 4px 0 rgb(67 80 98 / 10%) !important;
+}
+
+.contact {
+  text-align: center;
+  text-decoration: underline rgb(172, 50, 177);
+}
+
+.contact-des {
+  text-align: center;
 }
 
 .contact-info {
@@ -773,7 +792,44 @@ html, body {
     margin-bottom: 10px;
 }
 
+.flex.row {
+  flex-direction: row;
+}
 
+@media all and (min-width: 768px) {
+.flex {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  padding: px 20px 10px 10px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}}
+
+
+.about { 
+  text-align: center;
+  margin-top: 30px;
+  text-decoration: underline rgb(172, 50, 177);
+}
+
+
+
+.icon {
+  padding: 2px 2px 2px 2px;
+  height: 50px;
+  width: 50px;
+}
+
+.mid-container {
+  background-color: rgb(240, 240, 240);
+}
+
+.text {
+  inline-size: 350px;
+  overflow-wrap: break-word;
+}
 
 
 
