@@ -1,210 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ryan Arrigo Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  </head>
-
-  <body>
-        <!-- Navagation -->
-        <!-- <nav id="header-navbar" class="navbar navbar-expand-lg py-4 navbar-transparent">
-        <div id="side-nav" class="sidenav"></div>
-        <div id="side-search" class="sidenav">
-            <a href="javascript:void(0)" id="side-search-close"></a>
-            <div class="sidenav-content">
-                <form action>
-                    <div class="input-group md-form form-sm form-2 pl-0">
-                        <input class="form-control my-0 py-1 red-border" type="text" placeholder="search" aria-label="search">
-                        <div class="input-group-append">
-                            <button class="input-group-text-red lighten-3" id="basic-text1">
-                                <span class="lnr lnr-magnifier">
-                                </span>
-                            </button>
-                        </div>
-                    </div>
-                </form>
-             </div>
-        </div> 
-        </nav>-->
-
-        <div class="jumbotron d-flex align-items-center">
-            <div class="container text-center">
-            <h1 class="display-1 mb-4">Nice to meet you!</h1>
-            </div>
-            <div class="rectangle-1"></div>
-            <div class="rectangle-2"></div>
-            <div class="rectangle-transparent-1"></div>
-            <div class="rectangle-transparent-2"></div>
-            <div class="circle-1"></div>
-            <div class="circle-2"></div>
-            <div class="circle-3"></div>
-            <div class="triangle triangle-1">
-            <img src="img/obj_triangle.png" alt="">
-            </div>
-            <div class="triangle triangle-2">
-            <img src="img/obj_triangle.png" alt="">
-            </div>
-            <div class="triangle triangle-3">
-            <img src="img/obj_triangle.png" alt="">
-            </div>
-            <div class="triangle triangle-4">
-            <img src="img/obj_triangle.png" alt="">
-            </div>
-        </div>
-
-
-       <h2 class="about">About</h2>
-        <div class="flex">
-            <div>
-                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-speedometer2" viewBox="0 0 16 16">
-                    <path d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4zM3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.389.389 0 0 0-.029-.518z"/>
-                    <path fill-rule="evenodd" d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A7.988 7.988 0 0 1 0 10zm8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3z"/>
-                  </svg>
-                <p class="text">Fast load times and lag free interaction are my highest
-                    priority.
-                </p>
-            </div>
-
-            <div>
-                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
-                    <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z"/>
-                  </svg>
-                  <p class="text">My layouts will work on any device, large or small.</p>
-            </div>
-
-            <div>
-                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
-                    <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"/>
-                  </svg>
-                  <p class="text">Strong preference for simple to use, intuitive UX/UI.</p>
-            </div>
-
-            <div>
-                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cpu" viewBox="0 0 16 16">
-                    <path d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0zm-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3h-7zM5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3zM6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
-                  </svg>
-                  <p class="text">Websites don't have to be static, making pages come
-                    to life is what I do.</p>
-            </div>
-
-
-        </div>
-
-        <!-- Features Section-->
-            <section id="features" class="bg-white">
-            <div class="mid-container">
-            <div class="section-content">
-                <!-- Section Title -->
-                <div class="title-wrap mb-5 aos-init" data-aos="fade-up">
-                    <h2 class="section-title">
-                        A few of my Projects
-                    </h2>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Ryan Arrigo Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    </head>
+    <body>
+            <div class="jumbotron d-flex align-items-center">
+                <div class="container text-center">
+                <h1 class="display-1 mb-4">Nice to meet you!</h1>
                 </div>
-                <!-- End of Section Title -->
-                <div class="row">
-                    <!-- Previous works -->
-                    <div class="col-md-10 offset-md-1 features-holder">
-                        <div class="row">
-                            <!-- Features Item -->
-                            <div class="col-md-4 col-sm-12 text-center mt-4">
-                                <div class="shadow rounded feature-item p-4 mb-4 aos-init" data-aos="fade-up">
-                                    <div class="my-4">
-                                        <i class="lnr lnr-cog fs-40"></i>
-                                    </div>
-                                    <h4>Crypto Trading bot</h4>
-                                    <p>A cryptocurrenty pattern trading bot built in Node.js</p>
-                                    <img class="image" src="https://images.unsplash.com/photo-1634704784915-aacf363b021f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dHJhZGluZyUyMGNoYXJ0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="Trading BTC image">
-                                </div>
-                                <div class="shadow rounded feature-item p-4 mb-4 aos-init" data-aos="fade-up">
-                                    <div class="my-4">
-                                        <i class="lnr lnr-frame-contract fs-40"></i>
-                                    </div>
-                                    <h4>Weather Application</h4>
-                                    <p>A realtime weather application using API's built with HTML, CSS, and Javascript</p>
-                                    <img class="image" src="https://lh3.googleusercontent.com/nZvI3ER9pjDvsITfIo_5IzTfQ1wkzr6IhBJWBB0MJ8SXn7sDFv280ZDUcQrS2t3cYIu1eaYfBilhadmQ9FE98nPYZGEvVFmQvnFrwPTfdIexCP1gDnTsEhzOlCk398hqbsMKwWwMdjZMFXiy_0ymU193ZAEmjWOA51xXnc1cqSiMjEJWGudXw1_t7R2N6P5BpjXOVpQWt7j9UufGilK8ZfsnwaOjhMuoOiB4cEBz5TTSw0FyaDVI0X5Q55HP9szKmmaEzikfFWW-vEc4-oguQBe6INRahTg9nv3T6yJ5gGxjTHTwJUAayJJJSElkLhGUcuHeiCw53RFsO6cSZ93BbfGqEct-jOC2lPX2Ot8LD7EmkShh19Fllo-l7YMaIxuwSJSj6EqIE4FYYc8zohTq0xMD82eGjBg3FsF-VSBPileBexkkl9eNT-fMmliXwtlLelOA__vCVbhNjIe29nr3ziTNLgBL10wfzddE5f1ttd6ntdpVbKTHEzycRlFIyZfKDwUtmImo04x0sE1TlkEfc_3-a6F9EEPIlfRPOojIKg3plIqL5jfx3_9uxMpoosJvD_4KDZg3lmeu0zFCybmQSfIuDuDT53oqdNisKO-wshJrvav9tjrEQxNPnTX-yDuaiEz0q9g9ZwL9tYDjXY-gZf060KbVq27xtQzk-I27yz8-QOzKQphHymsalj1uL-CWEJ73IpEwbt20wd-hL8xU9YQ=w2159-h1290-no?authuser=0" alt="Weather Dashboard">
-                                </div>
-                            </div>
-                            <!-- End of Feature Item -->
-                            <!-- Features Item -->
-                            <div class="col-md-4 col-sm-12 text-center">
-                                <div class="shadow rounded feature-item p-4 mb-4 aos-init" data-aos="fade-up">
-                                    <div class="my-4">
-                                        <i class="lnr lnr-bubble fs-40"></i>
-                                    </div>
-                                    <h4>Profile Generator</h4>
-                                    <p>A Node.js app that generates profiles using Jest, Inquierer, and Javascript</p>
-                                    <img class="image" src="https://freerangestock.com/thumbnail/55451/video-sharing-concept--uploading-videos-to-the-internet--shado.jpg" alt="Profile Generator">
-                                </div>
-                                <div class="shadow rounded feature-item p-4 mb-4 aos-init" data-aos="fade-up">
-                                    <div class="my-4">
-                                        <i class="lnr lnr-magic-wand fs-40"></i>
-                                    </div>
-                                    <h4>Robot Gladiators</h4>
-                                    <p>A simple browser alert enabled game built with HTML, CSS, and Javascript</p>
-                                    <img class="image" src="https://images.unsplash.com/photo-1593100550919-da28468d9899?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cm9ib3QlMjBiYXR0bGV8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60" alt="Robot Battle">
-                                </div>
-                            </div>
-                            <!-- End of Feature Item -->
-                            <!-- Features Item -->
-                            <div class="col-md-4 col-sm-12 text-center mt-4">
-                                <div class="shadow rounded feature-item p-4 mb-4 aos-init" data-aos="fade-up">
-                                    <div class="my-4">
-                                        <i class="lnr lnr-clock fs-40"></i>
-                                    </div>
-                                    <h4>ReadMe Generator</h4>
-                                    <p>ReadMe Generator build in Node.js</p>
-                                    <img class="image" src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="Code generating application">
-                                </div>
-                                <div class="shadow rounded feature-item p-4 mb-4 aos-init" data-aos="fade-up">
-                                    <div class="my-4">
-                                        <i class="lnr lnr-thumbs-up fs-40"></i>
-                                    </div>
-                                    <h4>CodeQuiz</h4>
-                                    <p>A simple browser coding quiz built with HTML, CSS, and Javascript
-                                    </p>
-                                    <img class="image" src="https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Test being taken">
-                                </div>
-                            </div>
-                            <!-- End of Feature Item -->
-                        </div>
-                    </div>
-                    <!-- End of Features Holder-->
+                <div class="rectangle-1"></div>
+                <div class="rectangle-2"></div>
+                <div class="rectangle-transparent-1"></div>
+                <div class="rectangle-transparent-2"></div>
+                <div class="circle-1"></div>
+                <div class="circle-2"></div>
+                <div class="circle-3"></div>
+                <div class="triangle triangle-1">
+                <img src="img/obj_triangle.png" alt="">
+                </div>
+                <div class="triangle triangle-2">
+                <img src="img/obj_triangle.png" alt="">
+                </div>
+                <div class="triangle triangle-3">
+                <img src="img/obj_triangle.png" alt="">
+                </div>
+                <div class="triangle triangle-4">
+                <img src="img/obj_triangle.png" alt="">
                 </div>
             </div>
+
+            <!--About Section-->
+        <h2 class="about">About</h2>
+            <div class="flex">
+                <div class="icon-flex">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-speedometer2" viewBox="0 0 16 16">
+                        <path d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4zM3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.389.389 0 0 0-.029-.518z"/>
+                        <path fill-rule="evenodd" d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A7.988 7.988 0 0 1 0 10zm8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3z"/>
+                    </svg>
+                    <p class="text">Fast load times and lag free interaction are highest
+                        priority.
+                    </p>
+                </div>
+
+                <div class="icon-flex">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
+                        <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z"/>
+                    </svg>
+                    <p class="text">All layouts will work on any device, large or small.</p>
+                </div>
+
+                <div class="icon-flex">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
+                        <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"/>
+                    </svg>
+                    <p class="text">Strong preference for simple to use, intuitive UX/UI.</p>
+                </div>
+
+                <div class="icon-flex">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cpu" viewBox="0 0 16 16">
+                        <path d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0zm-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3h-7zM5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3zM6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
+                    </svg>
+                    <p class="text">Websites don't have to be static, making pages come
+                        to life is what I do.</p>
+                </div>
+
+
             </div>
 
-            <!--Contact Form-->
-<div class="contact-container">
-    <form action="mailto:rarrigo01@gmail.com" method="post" name="contact-us" action="">
-        <div class="contact-row">
-            <h2 class="contact">Contact Me</h2><br>
-            <h6 class="contact-des">Have questions or want to colaberate?</h6>
-            <div class="col-md-12 form-group">
-                <input type="text" class="form-control" id="name" name="name" placeholder="Name">
-            </div><br>
-            <div class="col-md-12 form-group">
-                <input type="text" class="form-control" id="email" name="email" placeholder="Email">
-            </div><br>
-            <div class="col-md-12 form-group">
-                <input type="number" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Phone">
-            </div><br>
-            <div class="col-md-12 form-group">
-                <input type="text" class="form-control" id="websiteUrl" name="websiteUrl" placeholder="Website">
-            </div><br>
-            <div class="col-md-12 form-group">
-                <textarea class="form-control" id="message" name="message" rows="6" placeholder="Your Message ..."></textarea>
-            </div><br>
-            <div class="col-md-12 text-center">
-                <button class="btn btn-btn btn-lg btn-prime btn-outline-prime" type="submit" name="submit" data-nlok-ref-guid="4dfdbfc6-ada8-4415-dc86-8d084ea702f5">Send It
-                </button>
-            </div>       
+            <!-- Features Section-->
+                <section id="features" class="bg-white">
+                <div class="mid-container">
+                <div class="section-content">
+                    <!-- Section Title -->
+                    <div class="title-wrap mb-5 aos-init" data-aos="fade-up">
+                        <h2 class="section-title">
+                            A Few Of My Projects
+                        </h2>
+                    </div>
+                    <!-- End of Section Title -->
+                    <div class="row">
+                        <!-- Previous works -->
+                        <div class="col-md-10 offset-md-1 features-holder">
+                            <div class="row">
+                                <!-- Features Item -->
+                                <div class="col-md-4 col-sm-12 text-center mt-4">
+                                    <div class="shadow rounded feature-item p-4 mb-4 aos-init" data-aos="fade-up">
+                                        <div class="my-4"></div>
+                                        <h4>Crypto Trading bot</h4>
+                                        <p>A cryptocurrenty technical analysis trading bot built in Node.js</p>
+                                        <img class="image" src="https://images.unsplash.com/photo-1634704784915-aacf363b021f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dHJhZGluZyUyMGNoYXJ0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="Trading BTC image">
+                                    </div>
+                                    <div class="shadow rounded feature-item p-4 mb-4 aos-init" data-aos="fade-up">
+                                        <div class="my-4"></div>
+                                        <h4>Weather Application</h4>
+                                        <p>A realtime weather application using API's built with HTML, CSS, and Javascript</p>
+                                        <img class="image" src="https://lh3.googleusercontent.com/pw/AM-JKLXgdXRM-zUybPdGTkKMFzyV25nzkdCryv_wSLwVGKF5wc0Zy1p3pMBkLBqtzTfurlL4imDLMmBukC4jz8trDfVWgFGqyvQy8_6FlLviqAy_Q8gW5C_Khh4OoHPpknmWl16QHTlSKz5zij5V4FNue-v6=w2159-h1290-no?authuser=0" alt="Weather Dashboard">
+                                    </div>
+                                </div>
+                                <!-- End of Feature Item -->
+                                <!-- Features Item -->
+                                <div class="col-md-4 col-sm-12 text-center">
+                                    <div class="shadow rounded feature-item p-4 mb-4 aos-init" data-aos="fade-up">
+                                        <div class="my-4"></div>
+                                        <h4>Profile Generator</h4>
+                                        <p>A Node.js app that generates profiles using Jest, Inquierer, and Javascript</p>
+                                        <img class="image" src="https://freerangestock.com/thumbnail/55451/video-sharing-concept--uploading-videos-to-the-internet--shado.jpg" alt="Profile Generator">
+                                    </div>
+                                    <div class="shadow rounded feature-item p-4 mb-4 aos-init" data-aos="fade-up">
+                                        <div class="my-4"></div>
+                                        <h4>Robot Gladiators</h4>
+                                        <p>A simple browser game built with HTML, CSS, and Javascript</p>
+                                        <img class="image" src="https://images.unsplash.com/photo-1593100550919-da28468d9899?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cm9ib3QlMjBiYXR0bGV8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60" alt="Robot Battle">
+                                    </div>
+                                </div>
+                                <!-- End of Feature Item -->
+                                <!-- Features Item -->
+                                <div class="col-md-4 col-sm-12 text-center mt-4"> 
+                                    <div class="shadow rounded feature-item p-4 mb-4 aos-init" data-aos="fade-up">
+                                        <div class="my-4"></div>
+                                        <h4>ReadMe Generator</h4>
+                                        <p> A ReadMe template application generator built in Node.js</p>
+                                        <img class="image" src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="Code generating application">
+                                    </div>
+                                    <div class="shadow rounded feature-item p-4 mb-4 aos-init mt-4" data-aos="fade-up">
+                                        <div class="my-4"></div>
+                                        <h4>CodeQuiz</h4>
+                                        <p>A simple browser coding quiz built with HTML, CSS, and Javascript</p>
+                                        <img class="image" src="https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Test being taken">
+                                    </div>
+                                </div>
+                                <!-- End of Feature Item -->
+                            </div>
+                        </div>
+                        <!-- End of Features Holder-->
+                    </div>
+                </div>
+                </div>
+
+                <!--Contact Form-->
+        <div class="contact-container">
+            <form action="mailto:rarrigo01@gmail.com" method="post" name="contact-us" action="">
+                <div class="contact-row">
+                    <h2 class="contact">Contact Me</h2><br>
+                    <h6 class="contact-des">Have questions or want to collaborate?</h6>
+                    <div class="col-md-12 form-group">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                    </div><br>
+                    <div class="col-md-12 form-group">
+                        <input type="text" class="form-control" id="email" name="email" placeholder="Email">
+                    </div><br>
+                    <div class="col-md-12 form-group">
+                        <input type="number" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Phone">
+                    </div><br>
+                    <div class="col-md-12 form-group">
+                        <input type="text" class="form-control" id="websiteUrl" name="websiteUrl" placeholder="Website">
+                    </div><br>
+                    <div class="col-md-12 form-group">
+                        <textarea class="form-control" id="message" name="message" rows="6" placeholder="Your Message ..."></textarea>
+                    </div><br>
+                    <div class="col-md-12 text-center">
+                        <button class="btn btn-btn btn-lg btn-prime btn-outline-prime" type="submit" name="submit" data-nlok-ref-guid="4dfdbfc6-ada8-4415-dc86-8d084ea702f5">Send It
+                        </button>
+                    </div>       
+                </div>
+            </form>
         </div>
-    </form>
-</div>
-<!-- End of Features Section-->
     </body>
-    </html>
+</html>
