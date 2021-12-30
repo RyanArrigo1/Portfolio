@@ -10,4 +10,4 @@ https://github.com/RyanArrigo1/Portfolio
 https://ryanarrigo1.github.io/Portfolio/
 
 ## Screenshot:
-![image](https://user-images.githubusercontent.com/90638410/147769509-f658c05e-cbfc-4db3-9edd-29125d5300dd.png)
+![portfolio-screenshot](https://user-images.githubusercontent.com/90638410/147769778-96ca66d4-27c7-422b-ac59-52f6334238cd.png)
